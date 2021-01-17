@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>motorcyle changer</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1">
+            <img src="motorbike/motor.png" id="image">
+            <div class="col">
+                <div class="row">
+                    <p1 id="ramdomC">Generate Ramdom Color</p1>
+                    <p2 id="specificC">Generate Specific Color</p2>
+                </div>
+                <button id="b1" onclick="randomize()">Generate</button>
+                <select id="colorlist">
+            <option value="white" hidden></option>
+            <option value="blue">BLUE </option>
+            <option value="grey">GREY</option>
+            <option value="green">GREEN</option>
+            <option value="yellow">YELLOW</option>
+            <option value="#ADD8E6">LIGHT BLUE</option> 
+            <option value="black">BLACK</option> 
+          </select>
+            </div>
+            <div class="d-col-md">
+                <button id="b2" onclick="showcolor()">Show</button>
+                <button id="b3" onclick="reset(image)">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
